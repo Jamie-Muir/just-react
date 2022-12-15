@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/just-react/static/css/main.4a83ad92.css",
+    "main.js": "/just-react/static/js/main.27fc9d5f.js",
+    "static/media/bg_hero-wide.webp": "/just-react/static/media/bg_hero-wide.6d0512145880165c30bd.webp",
+    "static/media/pizzaImage.webp": "/just-react/static/media/pizzaImage.e6477586d901b96a2e90.webp",
+    "static/media/granmasImage.webp": "/just-react/static/media/granmasImage.82b80b9aca73bda459a0.webp",
+    "static/media/mcdonaldsImage.webp": "/just-react/static/media/mcdonaldsImage.e32ac4b2c7a09c44b6ff.webp",
+    "index.html": "/just-react/index.html",
+    "main.4a83ad92.css.map": "/just-react/static/css/main.4a83ad92.css.map",
+    "main.27fc9d5f.js.map": "/just-react/static/js/main.27fc9d5f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4a83ad92.css",
+    "static/js/main.27fc9d5f.js"
+  ]
+}
