@@ -1,0 +1,9 @@
+.carousel {
+	display: flex;
+	flex-direction: row;
+	margin: auto;
+	width: 100%;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	padding-bottom: 50px;
+}

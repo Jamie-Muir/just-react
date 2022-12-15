@@ -1,0 +1,87 @@
+.restaurantCard {
+	margin: auto 10px;
+	// max-width: 370px;
+	min-width: 370px;
+	cursor: pointer;
+	text-align: center;
+	user-select: none;
+	position: relative;
+	top: 0;
+}
+
+.restaurantImage {
+	width: 100%;
+	min-height: 170px;
+	background-repeat: repeat;
+	background-size: cover;
+	background-color: #f5f3f1;
+	background-position: 50%;
+	border-radius: 12px;
+}
+
+.restaurantInfo {
+	margin-top: -62px;
+	margin-left: 8px;
+	margin-right: 8px;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	// align-items: center;
+	min-height: 164px;
+	// text-align: center;
+
+	& h3 {
+		margin-top: 8px;
+		// text-align: center;
+		font-weight: 700;
+		overflow: hidden;
+		// display: -webkit-box;
+		// -webkit-line-clamp: 2;
+	}
+
+	& ul {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		display: inline-block;
+
+		& li {
+			display: inline;
+
+			&:not(:last-child):after {
+				content: ' \2022';
+				letter-spacing: 1em;
+			}
+		}
+	}
+
+	.offer {
+		background: #ffead4;
+		width: calc(100%);
+		text-align: center;
+		padding: 5px;
+		border-radius: 0 0 12px 12px;
+		// margin-bottom: 0px;
+
+		& p { 
+			margin-top: 5px;
+			margin-bottom: 0;
+		}
+	}
+}
+
+.restaurantCardData {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	flex-basis: 50%;
+
+	.datagroup {
+		display: flex;
+		justify-content: space-between;
+
+		& p {
+			margin: 5px;
+		}
+	}
+}
